@@ -1,0 +1,107 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(abc2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  border-image: linear-gradient(90deg, red, orange, yellow, green, blue, purple) 1;
+  margin: 5px;
+  margin-top: 10px;
+  width: 90vw;
+}
+.medsymbol{
+  padding-right: 20px;
+}
+.medfile{
+  height: 25px;
+  padding-right: 15px;
+}
+.green{
+  display: inline-block;
+  width: 10px; /* Diameter of the ball */
+  height: 10px; /* Diameter of the ball */
+  background-color: rgb(98, 233, 98); /* Ball color */
+  border-radius: 50%; /* Makes it a perfect circle */
+  margin: 0 5px; 
+}
+.red{
+  display: inline-block;
+  width: 10px; /* Diameter of the ball */
+  height: 10px; /* Diameter of the ball */
+  background-color: red; /* Ball color */
+  border-radius: 50%; /* Makes it a perfect circle */
+  margin: 0 5px; 
+}
+.rectangle-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px purple;
+  box-shadow: 0 0 10px purple inset;
+  margin: 10px;
+  padding: 15px;
+  width: 60vw;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: rgba(0,0,0,0.5);
+}
+.fetchpatientrecords{
+  border-bottom-right-radius: 0px;
+  margin-bottom : 1px;
+}
+.patientrecords{
+  border-top-left-radius: 0px;
+  margin-top: 1px;
+}
+input{
+  height: 25px;
+  width: 80%;
+  margin: 5px;
+  padding: 4px;
+  border-radius: 8px;
+  background-color: rgba(255, 254, 254, 0.782) ;
+}
+button{
+  height: 35px;
+  width: 40%;
+  margin: 5px;
+  border-radius: 30px;
+  border: solid 1px white;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  transition: 0.3s ease;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+  background-color: rgb(71, 71, 237);
+  box-shadow: 0 5px 10px rgb(71, 71, 237);
+  transform: translateY(-5px);
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.footer{
+  border-radius: 60px;
+  margin-top: 50px;
+  border: solid 1px grey;
+  box-shadow: 0 0 15px inset;
+  h4{
+    text-decoration: underline;
+  }
+}
